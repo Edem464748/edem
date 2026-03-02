@@ -66,12 +66,13 @@ uint32_t addIEEE754(uint32_t a, uint32_t b) {
 int main() {
     FloatBits a, b, result;
 
-    cout << "‚¢¥¤¨â¥ ¤¢  ç¨á« : ";
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð²Ð° Ñ‡Ð¸ÑÐ»Ð°: ";
     cin >> a.f >> b.f;
 
     result.u = addIEEE754(a.u, b.u);
 
-    cout << "¥§ã«ìâ â: " << result.f << endl;
+    cout << "Ð ÐµÐ·ÑƒÐ»ÑŒÑ‚Ð°Ñ‚: " << result.f << endl;
 
     return 0;
 }
+
